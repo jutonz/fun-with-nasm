@@ -1,14 +1,15 @@
 ;==============================================================================
 ; Write the first command line argument out to the console.
 ;
-; Usage:  ./fun hello
+; Usage:   ./fun hello
 ;
-; Compile: nasm -f elf64 -o fun.o fun.asm
-; Link:    ld -o fun fun.o
+; Compile:  nasm -f elf64 -o fun.o fun.asm
+; Link:     ld -o fun fun.o
 ; (To debug, also pass `-F dwarf` to `nasm`)
 ;
-; Author:  Justin Toniazzo
-; Date:    21 Nov 2015
+; Author:   Justin Toniazzo
+; Date:     21 Nov 2015
+; Platform: Linux x64
 ;==============================================================================
 section .text
         global _start
