@@ -1,2 +1,10 @@
+# Ignore all
+*
+
+# Unignore anything with an extension
+!*.*
+
+# Unignore all directories
+!*/
+
 *.o
-fun
